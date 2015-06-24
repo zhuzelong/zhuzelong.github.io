@@ -199,10 +199,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 347.0,
-		"last_filter": "jekyll",
+		"height": 287.0,
+		"last_filter": "jeky",
 		"selected_items":
 		[
+			[
+				"jeky",
+				"Set Syntax: Markdown (Jekyll)"
+			],
 			[
 				"jekyll",
 				"Set Syntax: Markdown (Jekyll)"
@@ -602,10 +606,10 @@
 	],
 	"file_history":
 	[
+		"/Users/Zack/Documents/blog/_posts/2015-06-24-first-glance-at-pandas.md",
 		"/Users/Zack/Downloads/solar-theme-jekyll-master/feed.xml",
 		"/Users/Zack/Documents/blog/_config.yml",
 		"/Users/Zack/Documents/blog/blog.sublime-project",
-		"/Users/Zack/Documents/blog/_posts/2015-06-24-first-glance-at-pandas.md",
 		"/Users/Zack/Documents/blog2/_config.yml",
 		"/Users/Zack/Documents/blog/_layouts/default.html",
 		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/User/Jekyll.sublime-settings",
@@ -903,6 +907,10 @@
 		"selected_items":
 		[
 			[
+				"201",
+				"_posts/2015-06-24-first-glance-at-pandas.md"
+			],
+			[
 				"",
 				"_posts/2015-06-24-first-glance-at-pandas.md"
 			]
@@ -933,7 +941,7 @@
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/Users/Zack/Downloads/solar-theme-jekyll-master"
+			"_cmdline_cd": "/Users/Zack/Documents/blog/_posts"
 		}
 	},
 	"show_minimap": false,
