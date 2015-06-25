@@ -1,8 +1,7 @@
 # Site settings
-title: Track of programming
+title: My Github Blog
 email: 
-description: > # this means to ignore newlines until "baseurl:"
-  Blog on my daily programming.
+description: Records and remarks 
 # baseurl: "" # the subpath of your site, e.g. /blog/
 url: "zhuzelong.github.io" # the base hostname & protocol for your site
 github_username:  zhuzelong
