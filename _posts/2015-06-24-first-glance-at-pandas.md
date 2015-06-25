@@ -1,7 +1,7 @@
 ---
-layout: default 
+layout: post
 title: First glance at pandas
-categories: []
+categories: [Remarks]
 tags: [pandas]
 published: True
 
