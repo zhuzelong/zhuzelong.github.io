@@ -32,10 +32,22 @@ There are a lot more counter-intuitive names in pandas. It does not have to be i
 
 A quick example: what is the difference between `.concatenate()` and `append()`? As far as I searched the answer on SO, they seems duplicate. 
 
+In `data.table`, the columns are bound as local variable in a data table thus columns can be accesses without binding the name of data table. For example,
 
-## A confusing quick start
+```r
+# Return two columns of a data table 'dt'
+dt[, list(col_1, col_2)]
+```
 
-The quick start ("10 minute for pandas") is one of the worst quick start I have ever read. It takes a dozen of pages and explains nothing in detail. The examples are not representative but no more than excerpts of cookbook.
+In pandas, a simple "if-then" accessing looks like:
 
-Besides, there is a chapter of cookbook and dozens of chapters of specific subjects. What are the difference among them? Which part should I refer to? The "Tutorial" part does not specify the objectives.
+```python
+df.loc[df.col_1 > 0, 'col_2']
+```
 
+As you can see, two distinct ways are entailed to access a column on condition: `df.col_1` and `'col_2'`. Why do I have to remember whether to use a quote? Such inconsistency is annoying.
+
+
+## Summary
+
+One of the philosophy of Python is that "there is only one best choice". pandas, as an ambitious library, seems to violate the rule. Moreover, it emulates `data.frame` in R, but is far from "good" compared with `data.table`. Why not keep it simple, concise and consistent?
