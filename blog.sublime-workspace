@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"dat",
+				"da",
 				"data science"
 			],
 			[
-				"da",
-				"database"
+				"dat",
+				"data science"
 			],
 			[
 				"weig",
@@ -19,8 +19,16 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "blog.sublime-project",
+			"settings":
+			{
+				"buffer_size": 366,
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "",
+	"build_system": "Packages/knitr/knitr-Markdown.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -168,6 +176,22 @@
 				[
 					"Packages/knitr/knitr-Markdown.sublime-build",
 					"Run"
+				]
+			],
+			[
+				"Packages/knitr/knitr-Markdown.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/knitr/knitr-Markdown.sublime-build",
+					""
+				],
+				[
+					"Packages/knitr/knitr-Markdown.sublime-build",
+					"Run"
 				],
 				[
 					"Packages/Markdown Preview/Markdown.sublime-build",
@@ -199,16 +223,40 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 287.0,
-		"last_filter": "jeky",
+		"height": 327.0,
+		"last_filter": "evu",
 		"selected_items":
 		[
 			[
-				"jeky",
-				"Set Syntax: Markdown (Jekyll)"
+				"evu",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"ev sen",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"ev n",
+				"Evernote: New empty note"
 			],
 			[
 				"jekyll",
+				"Set Syntax: Markdown (Jekyll)"
+			],
+			[
+				"jekyl",
+				"Set Syntax: Markdown (Jekyll)"
+			],
+			[
+				"subl py",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"md pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"jeky",
 				"Set Syntax: Markdown (Jekyll)"
 			],
 			[
@@ -222,10 +270,6 @@
 			[
 				"pk in",
 				"Package Control: Install Package"
-			],
-			[
-				"evu",
-				"Evernote: Update Evernote Note"
 			],
 			[
 				"evo",
@@ -292,10 +336,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"md pre",
-				"Markdown Preview: Preview in Browser"
-			],
-			[
 				"instal",
 				"Package Control: Install Package"
 			],
@@ -334,10 +374,6 @@
 			[
 				"r-box",
 				"R-Box: Choose Program"
-			],
-			[
-				"ev sen",
-				"Evernote: Send to Evernote as new note"
 			],
 			[
 				"ev new",
@@ -606,12 +642,17 @@
 	],
 	"file_history":
 	[
+		"/Users/Zack/Downloads/trypandas.py",
+		"/Users/Zack/Downloads/try pandas.Rmd",
 		"/Users/Zack/Documents/blog/_posts/2015-06-24-first-glance-at-pandas.md",
-		"/Users/Zack/Downloads/solar-theme-jekyll-master/feed.xml",
 		"/Users/Zack/Documents/blog/_config.yml",
+		"/Users/Zack/Documents/blog/_layouts/post.html",
+		"/Users/Zack/Documents/blog/index.html",
+		"/Users/Zack/Documents/blog/archives/index.html",
+		"/Users/Zack/Documents/blog/_layouts/default.html",
+		"/Users/Zack/Downloads/solar-theme-jekyll-master/feed.xml",
 		"/Users/Zack/Documents/blog/blog.sublime-project",
 		"/Users/Zack/Documents/blog2/_config.yml",
-		"/Users/Zack/Documents/blog/_layouts/default.html",
 		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/User/Jekyll.sublime-settings",
 		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/Jekyll/Jekyll.sublime-settings",
 		"/Users/Zack/Documents/code/msc/sql/view.sql",
@@ -728,12 +769,7 @@
 		"/Users/Zack/Documents/code/msc/data/location/locations2_geo.csv",
 		"/Users/Zack/Downloads/resume2014.tex",
 		"/Users/Zack/Documents/job/resume/resume2014.tex",
-		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/Evernote/Evernote.sublime-settings",
-		"/Users/Zack/Downloads/resume/resume2014.tex",
-		"/Users/Zack/Documents/code/msc/data/location/FailMessage.csv",
-		"/Users/Zack/Documents/job/resume/cv_4.tex",
-		"/Users/Zack/Downloads/cv-xiangsun.tex",
-		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/Evernote/Evernote.sublime-settings"
 	],
 	"find":
 	{
@@ -849,8 +885,110 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "blog.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -893,7 +1031,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Jekyll",
+	"pinned_build_system": "Packages/knitr/knitr-Markdown.sublime-build",
 	"project": "blog.sublime-project",
 	"replace":
 	{
@@ -906,6 +1044,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"md",
+				"_posts/2015-06-24-first-glance-at-pandas.md"
+			],
+			[
+				"def",
+				"_layouts/default.html"
+			],
 			[
 				"201",
 				"_posts/2015-06-24-first-glance-at-pandas.md"
@@ -923,6 +1069,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/Documents/blog/blog.sublime-project"
+			]
 		],
 		"width": 380.0
 	},
@@ -941,7 +1091,7 @@
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/Users/Zack/Documents/blog/_posts"
+			"_cmdline_cd": "/Applications/Sublime Text.app/Contents/MacOS"
 		}
 	},
 	"show_minimap": false,

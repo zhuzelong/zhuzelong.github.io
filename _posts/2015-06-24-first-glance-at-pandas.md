@@ -34,14 +34,14 @@ A quick example: what is the difference between `.concatenate()` and `append()`?
 
 In `data.table`, the columns are bound as local variable in a data table thus columns can be accesses without binding the name of data table. For example,
 
-```r
+```R
 # Return two columns of a data table 'dt'
 dt[, list(col_1, col_2)]
 ```
 
 In pandas, a simple "if-then" accessing looks like:
 
-```python
+```Python
 df.loc[df.col_1 > 0, 'col_2']
 ```
 
