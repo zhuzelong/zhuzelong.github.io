@@ -215,10 +215,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 347.0,
-		"last_filter": "evu",
+		"height": 307.0,
+		"last_filter": "jek",
 		"selected_items":
 		[
+			[
+				"jek",
+				"Jekyll: New post"
+			],
 			[
 				"evu",
 				"Evernote: Update Evernote Note"
@@ -266,10 +270,6 @@
 			[
 				"jeky",
 				"Set Syntax: Markdown (Jekyll)"
-			],
-			[
-				"jek",
-				"Jekyll: Open post..."
 			],
 			[
 				"je",
@@ -620,7 +620,7 @@
 				"Colorsublime: Install Theme"
 			]
 		],
-		"width": 575.0
+		"width": 521.0
 	},
 	"console":
 	{
@@ -646,6 +646,8 @@
 	],
 	"file_history":
 	[
+		"/Users/Zack/Documents/code/msc/venv/lib/python3.4/site-packages/ggplot/ggplot.py",
+		"/Users/Zack/Documents/blog/_posts/2015-06-29-remarks-on-update-of-seaborn-060.md",
 		"/Users/Zack/Documents/code/msc/data/location/lib_feature.csv",
 		"/Users/Zack/Documents/code/mu/comp61021/pyvisual/tsne_imgs.py",
 		"/Users/Zack/Documents/code/msc/data/location/location.csv",
@@ -771,9 +773,7 @@
 		"/Users/Zack/Documents/code/msc/data/location/locations.csv",
 		"/Users/Zack/Documents/code/msc/data/location/locations_geocode1.csv",
 		"/Users/Zack/Documents/code/msc/data/location/locations_fill_geo.csv",
-		"/Users/Zack/Documents/code/msc/data/location/locations_fill.csv",
-		"/Users/Zack/Documents/code/msc/data/location/locations2.csv",
-		"/Users/Zack/Documents/code/msc/data/location/locations2_geo.csv"
+		"/Users/Zack/Documents/code/msc/data/location/locations_fill.csv"
 	],
 	"find":
 	{
@@ -995,7 +995,7 @@
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/Users/Zack/Documents/code/msc/data/location"
+			"_cmdline_cd": "/Users/Zack/Documents/code/msc/venv/lib/python3.4/site-packages/ggplot"
 		}
 	},
 	"show_minimap": false,

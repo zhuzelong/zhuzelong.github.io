@@ -21,3 +21,9 @@ Moreover, plots serve to "speak of data", not "show off the beauty". I saw a few
 
 The third reason why I do not like seaborn so much is that it is not a complete encapsulation of matplotlib. As stated before, I turned to seaborn because I need a "quick" tool for visualization while I do not have much time to learn matplotlib during my project. seaborn is an enhancement of matplotlib, providing a few more nice interface. But I have to go back to matplotlib very **often**.
 
+
+---
+# Update
+
+I tried to make a scatter plot for visualize the result of clustering and seaborn obviously does not support a **simple** scatter plot (c.f. [Issue 617](https://github.com/mwaskom/seaborn/issues/617#issuecomment-117198796)).
+
