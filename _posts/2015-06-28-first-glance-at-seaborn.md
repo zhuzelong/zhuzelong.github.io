@@ -23,7 +23,8 @@ The third reason why I do not like seaborn so much is that it is not a complete 
 
 
 ---
-# Update
+
+## Update
 
 I tried to make a scatter plot for visualize the result of clustering and seaborn obviously does not support a **simple** scatter plot (c.f. [Issue 617](https://github.com/mwaskom/seaborn/issues/617#issuecomment-117198796)).
 

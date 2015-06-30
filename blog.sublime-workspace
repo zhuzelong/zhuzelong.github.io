@@ -215,10 +215,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 307.0,
-		"last_filter": "jek",
+		"height": 227.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"syn je",
+				"Set Syntax: Markdown (Jekyll)"
+			],
 			[
 				"jek",
 				"Jekyll: New post"
@@ -620,7 +624,7 @@
 				"Colorsublime: Install Theme"
 			]
 		],
-		"width": 521.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -646,8 +650,11 @@
 	],
 	"file_history":
 	[
-		"/Users/Zack/Documents/code/msc/venv/lib/python3.4/site-packages/ggplot/ggplot.py",
 		"/Users/Zack/Documents/blog/_posts/2015-06-29-remarks-on-update-of-seaborn-060.md",
+		"/Users/Zack/Documents/blog/_layouts/post.html",
+		"/Users/Zack/Documents/blog/index.html",
+		"/Users/Zack/Documents/blog/_posts/2015-06-28-first-glance-at-seaborn.md",
+		"/Users/Zack/Documents/code/msc/venv/lib/python3.4/site-packages/ggplot/ggplot.py",
 		"/Users/Zack/Documents/code/msc/data/location/lib_feature.csv",
 		"/Users/Zack/Documents/code/mu/comp61021/pyvisual/tsne_imgs.py",
 		"/Users/Zack/Documents/code/msc/data/location/location.csv",
@@ -656,13 +663,10 @@
 		"/Users/Zack/Documents/code/msc/data/device/device_count.csv",
 		"/Users/Zack/.ipython/profile_msc/static/custom/custom.js",
 		"/Users/Zack/Documents/blog/_config.yml",
-		"/Users/Zack/Documents/blog/_posts/2015-06-28-first-glance-at-seaborn.md",
 		"/Users/Zack/Documents/blog/blog.sublime-project",
 		"/Users/Zack/Downloads/trypandas.py",
 		"/Users/Zack/Downloads/try pandas.Rmd",
 		"/Users/Zack/Documents/blog/_posts/2015-06-24-first-glance-at-pandas.md",
-		"/Users/Zack/Documents/blog/_layouts/post.html",
-		"/Users/Zack/Documents/blog/index.html",
 		"/Users/Zack/Documents/blog/archives/index.html",
 		"/Users/Zack/Documents/blog/_layouts/default.html",
 		"/Users/Zack/Downloads/solar-theme-jekyll-master/feed.xml",
@@ -947,6 +951,10 @@
 		"selected_items":
 		[
 			[
+				"seab",
+				"_posts/2015-06-28-first-glance-at-seaborn.md"
+			],
+			[
 				"md",
 				"_posts/2015-06-24-first-glance-at-pandas.md"
 			],
@@ -995,7 +1003,7 @@
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/Users/Zack/Documents/code/msc/venv/lib/python3.4/site-packages/ggplot"
+			"_cmdline_cd": "/Users/Zack/Documents/blog/_posts"
 		}
 	},
 	"show_minimap": false,
