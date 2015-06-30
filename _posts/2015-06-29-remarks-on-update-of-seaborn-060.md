@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: post 
 title: Remarks on update of seaborn 0.6.0
 categories: [Remarks]
 tags: [viz]

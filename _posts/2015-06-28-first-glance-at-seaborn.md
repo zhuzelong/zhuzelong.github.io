@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: post 
 title: First glance at seaborn
 categories: [Remarks]
 tags: [seaborn]
