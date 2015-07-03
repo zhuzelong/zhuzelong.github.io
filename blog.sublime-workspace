@@ -215,17 +215,17 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 227.0,
-		"last_filter": "",
+		"height": 307.0,
+		"last_filter": "jek",
 		"selected_items":
 		[
 			[
-				"syn je",
-				"Set Syntax: Markdown (Jekyll)"
-			],
-			[
 				"jek",
 				"Jekyll: New post"
+			],
+			[
+				"syn je",
+				"Set Syntax: Markdown (Jekyll)"
 			],
 			[
 				"evu",
@@ -624,7 +624,7 @@
 				"Colorsublime: Install Theme"
 			]
 		],
-		"width": 575.0
+		"width": 521.0
 	},
 	"console":
 	{
@@ -650,6 +650,15 @@
 	],
 	"file_history":
 	[
+		"/Users/Zack/Documents/code/msc/data/new_location_geo.csv",
+		"/Users/Zack/Documents/code/msc/data/new_location null.csv",
+		"/Users/Zack/Documents/code/msc/data/location_geocode.csv",
+		"/Users/Zack/Documents/code/msc/data/new_location2.csv",
+		"/Users/Zack/Documents/code/msc/geocode/geocode.py",
+		"/Users/Zack/Documents/code/msc/data/new_location.csv",
+		"/Users/Zack/Documents/code/msc/data/old/location/location_geocode.csv",
+		"/Users/Zack/Documents/code/msc/data/old/location/location.csv",
+		"/Users/Zack/Documents/blog/_posts/2015-07-02-reading-matplotlib-users-guide.md",
 		"/Users/Zack/Documents/blog/_posts/2015-06-24-first-glance-at-pandas.md",
 		"/Users/Zack/Documents/blog/_posts/2015-06-28-first-glance-at-seaborn.md",
 		"/Users/Zack/Documents/blog/_posts/2015-06-29-remarks-on-update-of-seaborn-060.md",
@@ -679,7 +688,6 @@
 		"/Users/Zack/Documents/code/msc/data/location/se_action.csv",
 		"/Users/Zack/Documents/code/msc/data/transaction/circulation_year.csv",
 		"/Users/Zack/Documents/code/msc/data/patron/borrow_year.csv",
-		"/Users/Zack/Documents/code/msc/geocode/geocode.py",
 		"/Users/Zack/Documents/code/msc/geocode/reverse_geocode.py",
 		"/Users/Zack/Documents/code/msc/data/location/geocode3.csv",
 		"/Users/Zack/Documents/code/msc/data/location/footfall.csv",
@@ -769,15 +777,7 @@
 		"/Users/Zack/Documents/code/msc/data/device/DeviceAction.csv",
 		"/Users/Zack/Documents/code/msc/data/device/DeviceType.csv",
 		"/Users/Zack/Documents/code/msc/data/location/del_location_device.csv",
-		"/Users/Zack/Documents/code/msc/data/location/virtual_locations.csv",
-		"/Users/Zack/Documents/code/msc/data/location/locations_geocode.csv",
-		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/Python/Main.sublime-menu",
-		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
-		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
-		"/Users/Zack/Documents/code/msc/data/location/locations.csv",
-		"/Users/Zack/Documents/code/msc/data/location/locations_geocode1.csv",
-		"/Users/Zack/Documents/code/msc/data/location/locations_fill_geo.csv",
-		"/Users/Zack/Documents/code/msc/data/location/locations_fill.csv"
+		"/Users/Zack/Documents/code/msc/data/location/virtual_locations.csv"
 	],
 	"find":
 	{
@@ -796,6 +796,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"NA",
 			"NULL",
 			"DateTimeStamp",
 			"notes",
@@ -877,17 +878,18 @@
 		],
 		"highlight": true,
 		"in_selection": false,
-		"preserve_case": false,
+		"preserve_case": true,
 		"regex": true,
 		"replace_history":
 		[
+			"NULL",
 			"",
 			"-1"
 		],
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": false
 	},
 	"groups":
@@ -941,7 +943,7 @@
 	"project": "blog.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1002,12 +1004,12 @@
 	"selected_group": 0,
 	"settings":
 	{
-		"_vintageous_last_buffer_search": "99,",
+		"_vintageous_last_buffer_search": "Ireland",
 		"_vintageous_last_buffer_search_command": "vi_slash",
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/Users/Zack/Documents/blog/_posts"
+			"_cmdline_cd": "/Applications/Sublime Text.app/Contents/MacOS"
 		}
 	},
 	"show_minimap": false,
