@@ -1,4 +1,5 @@
 _site
 .sass-cache
+*.gitignore
+*.sublime-workspace
 *.sublime-*
-.gitignore
