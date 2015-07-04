@@ -215,10 +215,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 307.0,
-		"last_filter": "jek",
+		"height": 107.0,
+		"last_filter": "syn jek",
 		"selected_items":
 		[
+			[
+				"syn jek",
+				"Set Syntax: Markdown (Jekyll)"
+			],
 			[
 				"jek",
 				"Jekyll: New post"
@@ -624,7 +628,7 @@
 				"Colorsublime: Install Theme"
 			]
 		],
-		"width": 521.0
+		"width": 504.0
 	},
 	"console":
 	{
@@ -650,11 +654,13 @@
 	],
 	"file_history":
 	[
+		"/Users/Zack/Documents/blog/_layouts/default.html",
+		"/Users/Zack/Documents/blog/_posts/2015-06-24-first-glance-at-pandas.md",
+		"/Users/Zack/Documents/blog/_config.yml",
+		"/Users/Zack/Documents/blog/_posts/2015-07-03-forsake-seaborn.md",
 		"/Users/Zack/Documents/blog/_posts/2015-07-02-reading-matplotlib-users-guide.md",
 		"/Users/Zack/Documents/blog/_posts/2015-06-29-remarks-on-update-of-seaborn-060.md",
 		"/Users/Zack/Documents/blog/_posts/2015-06-28-first-glance-at-seaborn.md",
-		"/Users/Zack/Documents/blog/_posts/2015-06-24-first-glance-at-pandas.md",
-		"/Users/Zack/Documents/blog/_posts/2015-07-03-forsake-seaborn.md",
 		"/Users/Zack/Documents/blog/_includes/head.html",
 		"/Users/Zack/Documents/blog/index.html",
 		"/Users/Zack/Documents/blog/.gitignore",
@@ -675,12 +681,10 @@
 		"/Users/Zack/Documents/code/msc/data/device/circ_type.csv",
 		"/Users/Zack/Documents/code/msc/data/device/device_count.csv",
 		"/Users/Zack/.ipython/profile_msc/static/custom/custom.js",
-		"/Users/Zack/Documents/blog/_config.yml",
 		"/Users/Zack/Documents/blog/blog.sublime-project",
 		"/Users/Zack/Downloads/trypandas.py",
 		"/Users/Zack/Downloads/try pandas.Rmd",
 		"/Users/Zack/Documents/blog/archives/index.html",
-		"/Users/Zack/Documents/blog/_layouts/default.html",
 		"/Users/Zack/Downloads/solar-theme-jekyll-master/feed.xml",
 		"/Users/Zack/Documents/blog2/_config.yml",
 		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/User/Jekyll.sublime-settings",
@@ -953,6 +957,18 @@
 		"selected_items":
 		[
 			[
+				"pands",
+				"_posts/2015-06-24-first-glance-at-pandas.md"
+			],
+			[
+				"panda",
+				"_posts/2015-06-24-first-glance-at-pandas.md"
+			],
+			[
+				"forske",
+				"_posts/2015-07-03-forsake-seaborn.md"
+			],
+			[
 				"md",
 				"_posts/2015-06-29-remarks-on-update-of-seaborn-060.md"
 			],
@@ -1004,12 +1020,12 @@
 	"selected_group": 0,
 	"settings":
 	{
-		"_vintageous_last_buffer_search": "Ireland",
+		"_vintageous_last_buffer_search": "css",
 		"_vintageous_last_buffer_search_command": "vi_slash",
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/Users/Zack/Documents/blog/_posts"
+			"_cmdline_cd": "/Users/Zack/Documents/blog/_layouts"
 		}
 	},
 	"show_minimap": false,
