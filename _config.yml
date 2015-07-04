@@ -7,10 +7,11 @@ url: "zhuzelong.github.io" # the base hostname & protocol for your site
 github_username:  zhuzelong
 
 # Build settings
-markdown: kramdown
-kramdown:
-    input: GFM
-    # syntax_highlighter: rouge
+markdown: redcarpet
+markdown_ext: markdown, mkdown, mkdn, mkd, md
+
+redcarpet:
+    extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
     
 # From Solar theme
 permalink: /:year/:month/:day/:title/
