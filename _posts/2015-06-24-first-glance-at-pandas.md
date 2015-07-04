@@ -23,7 +23,7 @@ By contrast, `data.table` provides a unified indexing API: `[`, and accessing to
 pandas tries to imitate `data.frame` so provides similar API's in `data.frame`. But the names looks weird.
 
 1. Why does pandas use `.describe()` for `summary()` in R? To show pandas is different?
-2. When you want to read an external csv file (similar to other file types), it sounds reasonable to invoke `read_csv()`. But why would I use `to_csv()` when I want to write a data frame to a csv file? Why not `write_csv()`? Another distinction from R?
+2. When you want to read an external csv file (similar to other file types), it sounds reasonable to invoke `read_csv()`. But when would I use `to_csv()` when I want to write a data frame to a csv file? Why not `write_csv()`? Another distinction from R?
 
 There are a lot more counter-intuitive names in pandas. It does not have to be in this way to distinguish itself from R.
 
@@ -34,14 +34,14 @@ A quick example: what is the difference between `.concatenate()` and `append()`?
 
 In `data.table`, the columns are bound as local variable in a data table thus columns can be accesses without binding the name of data table. For example,
 
-```r
+```R
 # Return two columns of a data table 'dt'
 dt[, list(col_1, col_2)]
 ```
 
 In pandas, a simple "if-then" accessing looks like:
 
-```python
+```Python
 df.loc[df.col_1 > 0, 'col_2']
 ```
 
