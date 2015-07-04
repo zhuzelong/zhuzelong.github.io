@@ -9,6 +9,10 @@ github_username:  zhuzelong
 # Build settings
 markdown: kramdown
 
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
+    
 # From Solar theme
 permalink: /:year/:month/:day/:title/
 paginate: 10
