@@ -2,7 +2,7 @@
 layout: post
 title: Forsake Seaborn
 categories: [Remarks]
-tags: [vis]
+tags: [viz]
 published: True
 
 ---

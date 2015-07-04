@@ -2,7 +2,7 @@
 layout: post 
 title: First glance at seaborn
 categories: [Remarks]
-tags: [seaborn]
+tags: [viz]
 published: True
 
 ---
