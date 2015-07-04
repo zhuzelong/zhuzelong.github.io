@@ -7,7 +7,7 @@ title: Home
    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
     <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
    {% if post.content.size > 1000 %}
-      {{ post.content | truncatewords: 100 }} <!-- bad! content gives you rendered html and you will truncate in the middle of a node -->
+      {{ post.content | strip_html | truncatewords: 100 }} 
       <a href="{{ post.url }}">read more</a>
    {% else %}
       {{ post.content }}

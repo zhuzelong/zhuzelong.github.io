@@ -650,10 +650,14 @@
 	],
 	"file_history":
 	[
+		"/Users/Zack/Documents/blog/_posts/2015-07-02-reading-matplotlib-users-guide.md",
+		"/Users/Zack/Documents/blog/_posts/2015-06-29-remarks-on-update-of-seaborn-060.md",
+		"/Users/Zack/Documents/blog/_posts/2015-06-28-first-glance-at-seaborn.md",
+		"/Users/Zack/Documents/blog/_posts/2015-06-24-first-glance-at-pandas.md",
+		"/Users/Zack/Documents/blog/_posts/2015-07-03-forsake-seaborn.md",
 		"/Users/Zack/Documents/blog/_includes/head.html",
 		"/Users/Zack/Documents/blog/index.html",
 		"/Users/Zack/Documents/blog/.gitignore",
-		"/Users/Zack/Documents/blog/_posts/2015-07-03-forsake-seaborn.md",
 		"/Users/Zack/Documents/code/msc/data/new_location_geo.csv",
 		"/Users/Zack/Documents/code/msc/data/new_location null.csv",
 		"/Users/Zack/Documents/code/msc/data/location_geocode.csv",
@@ -662,10 +666,6 @@
 		"/Users/Zack/Documents/code/msc/data/new_location.csv",
 		"/Users/Zack/Documents/code/msc/data/old/location/location_geocode.csv",
 		"/Users/Zack/Documents/code/msc/data/old/location/location.csv",
-		"/Users/Zack/Documents/blog/_posts/2015-07-02-reading-matplotlib-users-guide.md",
-		"/Users/Zack/Documents/blog/_posts/2015-06-24-first-glance-at-pandas.md",
-		"/Users/Zack/Documents/blog/_posts/2015-06-28-first-glance-at-seaborn.md",
-		"/Users/Zack/Documents/blog/_posts/2015-06-29-remarks-on-update-of-seaborn-060.md",
 		"/Users/Zack/Documents/blog/_layouts/post.html",
 		"/Users/Zack/Documents/code/msc/venv/lib/python3.4/site-packages/ggplot/ggplot.py",
 		"/Users/Zack/Documents/code/msc/data/location/lib_feature.csv",
@@ -953,16 +953,16 @@
 		"selected_items":
 		[
 			[
+				"md",
+				"_posts/2015-06-29-remarks-on-update-of-seaborn-060.md"
+			],
+			[
 				"seabo",
 				"_posts/2015-06-28-first-glance-at-seaborn.md"
 			],
 			[
 				"seab",
 				"_posts/2015-06-28-first-glance-at-seaborn.md"
-			],
-			[
-				"md",
-				"_posts/2015-06-24-first-glance-at-pandas.md"
 			],
 			[
 				"def",
@@ -1009,7 +1009,7 @@
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/Users/Zack/Documents/blog"
+			"_cmdline_cd": "/Users/Zack/Documents/blog/_posts"
 		}
 	},
 	"show_minimap": false,
