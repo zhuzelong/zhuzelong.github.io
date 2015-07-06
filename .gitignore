@@ -2,3 +2,4 @@ _site
 .sass-cache
 blog.sublime-project
 *.sublime-workspace
+blog.sublime-workspace
