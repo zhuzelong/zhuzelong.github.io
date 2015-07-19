@@ -64,6 +64,25 @@ The key part is `ax.set_color_cycle`, which assign RGBA colors to patches in ord
 Note that the arguments of `cm()` should be within `[0, 1]` and `i/num_groups` would return a float instead of 0 in Python 3. `cm` is an instance of `matplotlib.colors.LinearSegmentedColormap`.
 
 
+## Colormap and scatter plot
+
+*2015/7/19 update*
+
+The following code did not work, all scatter points were in the same color and the `cmap` was not accessed.
+
+```python
+ax.set_color_cycle([cm(i/len(groups)) for i in range(len(groups))])
+
+for name, group in gorups:
+    ax.scatter(group['X'], group['Y'], label=name)
+```
+
+Referring to [the post](https://github.com/matplotlib/matplotlib/issues/3041), the devs of matplotlib believe that scatter plot is a special type of plot therefore does not need the color cycle. In other words, `ax.plot(x, y, '.')` and `ax.scatter(x, y)` are in fact different, although they would look identical in usual case.
+
+Accordingly, it would be better to use `ax.plot(x, y, '.')` together with color map in my situation. Alternatively, use `ax.scatter(x, y, c=cm(name/len(groups)))`.
+
+
+
 ## Future work
 
 It remains to probe the reason why 1D Line does not support `cmap` attribute while 2D Line does.
