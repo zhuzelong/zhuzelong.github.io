@@ -129,7 +129,7 @@ Given the examples, you might think that the unit of time in `ts` is "year" and 
 library(zoo)
 
 # Make dates
-> idx = seq(as.Date('2015-1-1'), as('2015-1-24'), by='day')
+> idx = seq(as.Date('2015-1-1'), as.Date('2015-1-24'), by='day')
 # Make a zoo
 > z = zoo(1:24, idx)
 > z
