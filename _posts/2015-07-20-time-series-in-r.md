@@ -122,8 +122,58 @@ The first 6 observations is in the season "100", then 8 observations in the seas
 A short conclusion: the season in `ts` is just a number and the date (or datetime) in `ts` is also a number (float). You would probably get confused and struggle to store a daily time series if you think the season is "year".
 
 
+### Daily data in `ts`
+Given the examples, you might think that the unit of time in `ts` is "year" and it is difficult to store daily data due to the leap year (`freq=365` or `freq=365.25`?). Remember the short conclusion: the **unit** of time is no more than a unit, it is not "year" or "day".
+
+```r
+library(zoo)
+
+# Make dates
+> idx = seq(as.Date('2015-1-1'), as('2015-1-24'), by='day')
+# Make a zoo
+> z = zoo(1:24, idx)
+> z
+2015-01-01 2015-01-02 2015-01-03 2015-01-04 2015-01-05 2015-01-06 
+         1          2          3          4          5          6 
+2015-01-07 2015-01-08 2015-01-09 2015-01-10 2015-01-11 2015-01-12 
+         7          8          9         10         11         12 
+2015-01-13 2015-01-14 2015-01-15 2015-01-16 2015-01-17 2015-01-18 
+        13         14         15         16         17         18 
+2015-01-19 2015-01-20 2015-01-21 2015-01-22 2015-01-23 2015-01-24 
+        19         20         21         22         23         24
+
+# Convert zoo to ts
+> t = as.ts(z)
+> t
+Time Series:
+Start = 16436 
+End = 16459 
+Frequency = 1 
+ [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+[21] 21 22 23 24
+```
+
+The `Frequency` ot `t` is 1. Does it indicate one observation per year (if you think the unit of time is "year")? Have a look at the `Start` and `End`.
+
+```r
+> as.Date(16436)
+[1] "2015-01-01"
+> as.Date(16459)
+[1] "2015-01-24"
+```
+
+It is apparent that the time series `t` is daily-based and `Frequency=1` means one observation per **day**. The number is the elapsed days since `1970-01-01` (day 0).
+
+
+
 ## One more thing
 
 `ts` in R can only deal with strictly regular time series, i.e. no interruption in the time series. Use `zoo` to store non-strictly regular time series and convert it to `ts`. R would fill `NA` in the time series, which is necessary in decomposition and ARIMA analysis.
+
+### `ts()` or `as.ts()`?
+
+There is no additional argument in `as.ts` thus the frequency of `as.ts()` is always 1. If you need to decompose the time series with `decompose(t)` then it would fail because `decompose()` is only applicable to seasonal data of which `frequency` is larger or equal to 2. Therefore, you would need to convert a `zoo` to `ts` by `ts(z, start=, frequency=)` and be careful with `start`. The resulting time series of `ts(z)` is continuous thus it would ignore the dates in the original `zoo`. Be careful when the time series is not strictly regular, no `NA` will be interpolated, which incurs an alignment problem.
+
+In ARIMA analysis, it is sufficient to use `arima(z, ...)` since the `z` would be implicitly converted to `ts` by `as.ts(z)`. If `z` is not strictly regular, then `NA` would by interpolated in the new `ts` in order to align the dates with dates in `z`. `arima` is able to deal with `NA` so do not convert manually by invoking `ts(z, start=, frequency=)` or bother with the start date and frequency.
 
 
