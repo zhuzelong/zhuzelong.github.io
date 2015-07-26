@@ -2,7 +2,7 @@
 layout: post 
 title: Date in MS SQL
 categories: [Record]
-tags: [tsa]
+tags: [time series]
 published: True
 
 ---
